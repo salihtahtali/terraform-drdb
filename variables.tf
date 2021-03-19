@@ -1,6 +1,6 @@
 #Resource Group
 variable "ResouceGroup" {
-  default     = "RG-DRDB"
+  default     = "RG-drbd"
 
 }
 
@@ -11,10 +11,10 @@ variable "Region" {
 
 #VNET Name
 variable "VnetName" {
-  default     = "VNET-DRDB"
+  default     = "VNET-drbd"
 
 }
 
 variable "prefix" {
-  default = "drdb"
+  default = "drbd"
 }
